@@ -96,7 +96,7 @@ const app = express();
 const upload = multer({ dest: 'uploads/' });
 
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://photoconverter.vercel.app/'],
+    origin: ['http://localhost:3000', 'https://photoconverter.vercel.app'],
     credentials: true,
 };
 
